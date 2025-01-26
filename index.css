@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#hedding{
+    text-align: center;
+    background-color: rgb(241, 209, 167);
+}
+#contener1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(255, 255, 255);
+}
+.mumu {
+    background-size: cover;
+}
+#contener2{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(150, 100%, 86%);
+    height: 30px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 2.5px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(4, 0, 255);
+    background-color: #4CAF50;
+    border-color: #388E3C;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+   padding-bottom: 2px ;
+    
+}
+
+button:hover{
+    color: white;
+    background-color: #45a049;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #2e7d32;
+}
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #0a2941;
+}
+.header{
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+}
+.header h1{
+    color:#fff;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow;
+}
+.header p {
+    color: #fff;
+    font-size: 1em;
+    margin: 5px;
+    
+
+}
+h1:nth-of-type(1){
+    font-family: 'Arial',sans-serif;
+    font-size: 2.2em;
+}
+h1:nth-of-type(2){
+    font-family: 'Arial', sans-serif;
+    font-size: 2.2em;
+}
+#p1{
+    display: inline;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow;
+}
+#p2{
+    display: inline;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow;
+}
+#home{
+    background-color: rgb(0, 251, 255);
+   
+   
+}
+container3{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+#img11{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+#img1{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+#img8{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+#img7{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+#img13{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+#contact{
+    height: 100px;
+}
